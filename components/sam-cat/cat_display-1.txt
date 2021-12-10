@@ -1,0 +1,24 @@
+
+
+# jalal7h@gmail.com
+# 2016/09/05
+# 2.0
+
+# print_r( cat_display('cat') );
+# echo cat_display('cat', false );
+# ff(array('گروه','n:cat*'=>$tapk,'option'=>cat_display('cat'),'inDiv')).
+
+/*
+
+# print_r( cat_display('cat') );
+pishvarz e parametr e dovom "array" , true hast, tu in halat list i az cat ha ro besurate array mide.
+in cat ha az admin ghabele control hastan.
+
+
+# echo cat_display('cat', $array=false );
+vaghti array false midi, besurate html mide, tuye <option>
+
+
+# ff(array('گروه','n:cat*'=>$tapk,'option'=>cat_display('cat'),'inDiv')).
+ff() hamun function e listmaker_formfield() hast, 
+

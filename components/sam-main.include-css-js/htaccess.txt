@@ -1,0 +1,8 @@
+
+RewriteRule ^scripts.js$ ./?do_action=include_all_js [L]
+RewriteRule ^scripts-enqueue.js$ ./?do_action=include_all_js_enqueue [L]
+RewriteRule ^scripts-footer.js$ ./?do_action=include_all_js_footer [L]
+RewriteRule ^scripts-admin.js$ ./?do_action=include_all_js&page=admin [L]
+RewriteRule ^styles.css$ ./?do_action=include_all_css [L]
+RewriteRule ^styles-admin.css$ ./?do_action=include_all_css&page=admin [L]
+

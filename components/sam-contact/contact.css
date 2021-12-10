@@ -1,0 +1,220 @@
+.contact {
+  width: 100%;
+  padding-bottom: 110px;
+  background-image: url(./img/contact/callcenter-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin-top: -18px;
+}
+
+.contact {
+  width: 100%;
+  padding-bottom: 20px;
+  background-image: url(./img/contact/callcenter-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin-top: -18px;
+}
+
+.contact h1 {
+  padding-top: 50px;
+  color: #fff;
+  font-family: iran;
+  text-shadow: 0 0 10px #000;
+}
+
+.contact-box {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.contact-box h3 {
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+.contact-box h4 {
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.contact-form {
+  width: 80%;
+  padding-bottom: 150px;
+  position: relative;
+  top: 50px;
+  background-color: ;
+  margin: auto;
+  direction: rtl;
+}
+
+.contact-form-input {
+  width: 480px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ddd;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: iran;
+  direction: rtl;
+  margin-right: 17px;
+  margin-top: 17px;
+  border-radius: 3px;
+}
+
+.contact-form-input:hover {
+  border: 1px solid #ededed;
+}
+
+.contact-form-input:focus {
+  outline-color: orange;
+}
+
+.contact-form-textarea {
+  width: 1023px;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: iran;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.contact-form-textarea:hover {
+  border: 1px solid #ededed;
+}
+
+.contact-form-textarea:focus {
+  outline-color: orange;
+}
+
+.contact-form-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rebeccapurple;
+  color: #fff;
+  font-family: iran;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  float: left;
+  margin-left: 25px;
+  border: none;
+}
+
+.contact-form-btn:hover {
+  background-color: #131e3e;
+}
+
+.contact-form-btn:focus {
+  outline: none;
+}
+
+#BlogPart {
+    height: auto;
+    margin: 10px auto;
+    width: 100%;
+    position: relative;
+}
+/* .BlogPartoverlay {
+    background-color: rgba(0,0,0,.56);
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+.LTR {
+    direction: ltr;
+} */
+.skill-h1{
+    font-size: 25px;
+
+}
+.Skills-p{
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+}
+.progress{
+ direction: rtl;
+ text-align: right;
+}
+@media (min-width: 1200px)
+
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px)
+
+.container {
+    width: 970px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contact {
+    background: url(../../img/contact/callcenter-2.jpg) right 10% center no-repeat;
+    margin-top: -5px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.col-md-4 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.text-center{
+    margin-bottom: 50px;
+}
+.content-contact {
+    width: 90%;
+    margin: 20px auto;
+    direction: rtl;
+    /* margin-top: 0px; */
+    padding-bottom: 80px;
+}
+.contact-text{
+    color: #fff;
+}
+.contact-text a{
+    color: #fff;
+}
+@media only screen and (max-width: 700px) {
+.col-md-4 {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    margin: 0 auto;
+}
+.content-contact {
+    
+    padding-bottom: 40px;
+}
+.contact-form{
+    margin-top: -40px;
+    width: 95%;
+}
+}

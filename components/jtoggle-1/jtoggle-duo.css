@@ -1,0 +1,88 @@
+
+.jtoggle-ul ,
+.jtoggle-ul * {
+	margin: 0px;
+	padding: 0px !important;
+	direction: ltr !important;
+	line-height: 1 !important;
+	text-align: left !important;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.jtoggle-ul {
+	list-style-type: none;
+	display: inline-block;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+	width: 77px;
+	height: 31px;
+	overflow: hidden;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	box-shadow: 0 0 5px #aaa;
+	cursor: pointer;
+	background: #fefefe;
+	transition: all 0.3s;
+	vertical-align: bottom;
+}
+.jtoggle-ul > li ,
+.jtoggle-ul > div {
+	display: inline-block;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	height: 30px;
+}
+.jtoggle-ul .yes {
+	padding: 7.5px 0 0 12px !important;
+	margin-left: -45px;
+	/* background-color: rgb(150, 0, 252); */
+	background-color: rgb(117, 172, 0);
+	box-shadow: 0 0 10px #000 inset;
+	color: white;
+	width: 60px;
+	transition: all 0.3s;
+	vertical-align: top;
+	font: bold 15px tahoma;
+}
+.jtoggle-ul .middle {
+	border-radius: 15px;
+	background: #ddd;
+	border: 1px solid #aaa;
+	width: 30px;
+	margin: 0 -15px 0 -15px;
+	position: relative; z-index: 2;
+
+	background: rgba(226,226,226,1);
+	background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+	background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+}
+.jtoggle-ul .no {
+	padding: 7.5px 0 0 21px !important;
+	box-shadow: 0 0 10px #aaa inset;
+	color: #ddd;
+	width: 60px;
+	margin-right: 0;
+	transition: all 0.3s;
+	vertical-align: top;
+	font: bold 15px tahoma;
+}
+
+input[type=jtoggle] {
+	display: none;
+}
+
+
+
+

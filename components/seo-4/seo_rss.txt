@@ -1,0 +1,11 @@
+
+
+# jalal7h@gmail.com
+# 2015/09/21
+# 1.0
+
+/*
+$GLOBALS['seo_rss']['feed-name'] = array( 
+	"query" => " some query with id , name , text, date ",
+	"link" => 'some link with php support'
+);

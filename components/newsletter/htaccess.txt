@@ -1,0 +1,1 @@
+RewriteRule ^newsletter-email-list.txt$ ./?do_action=nl_management_emailList_download [L]

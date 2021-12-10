@@ -1,0 +1,26 @@
+
+.d404 {
+	width: 1030px;
+	max-width: 95%;
+	margin: 150px auto;
+	padding: 30px;
+	font-family: iran,tahoma;
+	direction: rtl;
+}
+.d404 .img404{
+	text-align: center;
+}
+.d404 .img{
+	width: 50%;
+}
+.d404 .head {
+	font: bold 24px iran;
+	padding: 10px 0;
+}
+.d404 .desc {
+	font: normal 13px iran;
+	padding: 10px 0;
+}
+.d404 .submit_button {
+	margin: 10px 0;
+}

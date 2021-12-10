@@ -1,0 +1,1 @@
+// $(document).ready(function(){$("html").niceScroll({railalign:"right",zindex:"11111111111",cursorcolor:"#ccc",cursorwidth:"4px",background:"#fff",autohidemode:false,hidecursordelay:"800",cursoropacitymax:"1",cursorborder:"0",railpadding:{left:0,right:2}});});

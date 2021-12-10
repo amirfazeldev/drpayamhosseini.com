@@ -1,0 +1,69 @@
+RewriteEngine On
+
+
+#AddDefaultCharset utf-8
+#
+# adminn
+
+RewriteRule ^admin$ ./?page=admin [L]
+RewriteRule ^logout$ ./?page=admin&component=logout [L]
+RewriteRule ^homepage$ ./?page=admin&component=homepage_management [L]
+RewriteRule ^linkify$ ./?page=admin&component=linkify [L]
+RewriteRule ^admin-service$ ./?page=admin&component=admin-service [L]
+RewriteRule ^content-part$ ./?page=admin&component=content-part [L]
+RewriteRule ^work_cat$ ./?page=admin&component=work_cat [L]
+RewriteRule ^admin-about$ ./?page=admin&component=admin-about [L]
+RewriteRule ^admin-contact$ ./?page=admin&component=contact [L]
+RewriteRule ^setting$ ./?page=admin&component=setting [L]
+RewriteRule ^services_cat$ ./?page=admin&component=services_cat [L]
+RewriteRule ^services$ ./?page=admin&component=services [L]
+RewriteRule ^changepassword$ ./?page=admin&component=changepassword [L]
+RewriteRule ^nl_management$ ./?page=admin&component=nl_management [L]
+RewriteRule ^news_mg$ ./?page=admin&component=news [L]
+RewriteRule ^news_cat$ ./?page=admin&component=news_cat [L]
+RewriteRule ^uplod$ ./?page=admin&component=uplod [L]
+RewriteRule ^faq_mg$ ./?page=admin&component=faq_mg [L]
+RewriteRule ^slider_management$ ./?page=admin&component=slider_management [L]
+RewriteRule ^desc_management$ ./?page=admin&component=desc_management [L]
+RewriteRule ^gallery_management$ ./?page=admin&component=gallery_management [L]
+RewriteRule ^work-sample$ ./?page=admin&component=work-sample [L]
+
+
+#
+# index
+RewriteRule ^home(/*)$ ./?page=home [L]
+RewriteRule ^about(/*)$ ./?page=about [L]
+RewriteRule ^contact(/*)$ ./?page=contact [L]
+RewriteRule ^portfolio(/*)$ ./?page=portfolio [L]
+RewriteRule ^shared-hosting(/*)$ ./?page=shared-hosting [L]
+RewriteRule ^news(/*)$ ./?page=news [L]
+RewriteRule ^hosting(/*)$ ./?page=hosting [L]
+RewriteRule ^news/([0-9]*)/(.*)$ ./?page=news&id=$1 [L]
+RewriteRule ^all-work-sample(/*)$ ./?page=all-work-sample [L]
+RewriteRule ^register(/*)$ ./?page=register [L]
+RewriteRule ^login(/*)$ ./?page=login [L]
+RewriteRule ^forgot(/*)$ ./?page=forgot [L]
+RewriteRule ^faq(/*)$ ./?page=faq [L]
+RewriteRule ^money-back(/*)$ ./?page=mb [L]
+RewriteRule ^web-design(/*)$ ./?page=web-design-page [L]
+RewriteRule ^digital-marketing(/*)$ ./?page=digital-marketing [L]
+RewriteRule ^terms(/*)$ ./?page=terms [L]
+RewriteRule ^discount(/*)$ ./?page=discount [L]
+RewriteRule ^datacenters(/*)$ ./?page=datacenters [L]
+RewriteRule ^dentgallery(/*)$ ./?page=dentgallery [L]
+RewriteRule ^drgallery(/*)$ ./?page=drgallery [L]
+RewriteRule ^tarefe(/*)$ ./?page=tarefe [L]
+RewriteRule ^forgot/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*)$ ./?page=forgot&do=new&mail=$2 [L]
+RewriteRule ^forgot/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*)$ ./?page=forgot&do=new&mail=$2&pas=$3 [L]
+
+
+#
+# css&js
+RewriteRule ^scripts.js$ ./?do_action=include_all_js [L]
+RewriteRule ^scripts-admin.js$ ./?do_action=include_all_js&page=admin [L]
+RewriteRule ^styles.css$ ./?do_action=include_all_css [L]
+RewriteRule ^styles-admin.css$ ./?do_action=include_all_css&page=admin [L]
+RewriteRule ^scripts-footer.js$ ./?do_action=include_all_js_footer [L]
+
+
+ErrorDocument 404 /404.php

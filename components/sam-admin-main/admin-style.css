@@ -1,0 +1,431 @@
+body {
+	background-color: #eaeaea;
+	margin: 0px;
+	padding: 0px;
+}
+::selection {
+	background-color: orange;
+	color: #fff;
+}
+a {
+  text-decoration: none;
+}
+/* --------------------------------------------------
+
+  login page style
+
+-------------------------------------------------- */
+.login-box {
+  width: 400px;
+  margin: auto;
+  margin-top: 14%;
+  border: 1px dotted #ccc;
+  /* border-radius: 10px; */
+  box-shadow: 0px 0px 40px #D0D0D0;
+  /* transform: rotate(-90deg); */
+  opacity: 1;
+  transition: all 0.5s;
+}
+.container-login{
+  padding: 0px 50px 50px 50px;
+}
+.login-box-title {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px dashed #ccc;
+  text-align: center;
+}
+.login-box-title span {
+  font-family: iran;
+  margin-top: 11px;
+  display: inline-block;
+  color: rgb(181, 181, 181);
+}
+.login-box .login-box-username {
+  width: 274px;
+  display: block;
+  margin-bottom: 4px;
+  padding: 10px;
+  font: normal 14px monospace,tahoma !important;
+  margin: 2px;
+  box-shadow: 0 0 20px #ccc;
+  outline: none;
+}
+.login-box .login-box-username:hover {
+  border: 1px solid #eaeaea;
+}
+.login-box .login-box-username:focus {
+  outline: none;
+  border: 1px solid #eaeaea;
+}
+.login-box .login-box-password {
+  width: 178px;
+  margin-bottom: 4px;
+  padding: 10px;
+  font: normal 14px monospace,tahoma !important;
+  margin: 2px;
+  box-shadow: 0 0 20px #ccc;
+  outline: none;
+}
+.login-box .login-box-password:hover {
+  border: 1px solid #eaeaea;
+}
+.login-box .login-box-password:focus {
+  outline: none;
+  border: 1px solid #eaeaea;
+}
+.login-box .login-box-code {
+  padding: 10px;
+  font: normal 14px monospace,tahoma !important;
+  margin: 2px;
+  box-shadow: 0 0 20px #ccc;
+  outline: none;
+  width: 65px !important;
+  text-align: center;
+  margin-right: 0px;
+}
+.login-box .login-box-code:hover {
+  border: 1px solid #eaeaea;
+}
+.login-box .login-box-code:focus {
+  outline: none;
+  border: 1px solid #eaeaea;
+}
+.login-box .login-box-btn {
+  width: 28%;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  background-color: #ccc/*10d202*/;
+  font-family: iran;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 50px;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 7px;
+  box-shadow: 0 0 20px #ccc;
+}
+.login-box .login-box-btn:hover {
+  background-color: #0eba01;
+}
+.logo { 
+  display: inline-block;
+  height: 110px;
+  margin-top: -5px;
+}
+.admin-captcha {
+  /* margin-left: 56px; */
+  display: inline-block;
+  float: left;
+}
+.admin-captcha .g-recaptcha {
+  transform: scale(0.66);
+  margin: -10px -49px;
+}
+.admin_login_form_back{
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  color: #aaa !important;
+  transition: all 0.3s;
+  font-family: iran;
+  font-size: 10px;
+}
+.admin_login_form_copyraid{
+  width: 80%;
+  margin:40px auto;
+  color: #aaa;
+  font-size: 12px;
+}
+.admin_login_form_copyraid hr{
+    background-color: #ccc;
+    height: 1px;
+    border: none;
+}
+.admin_login_form_copyraid a{
+  color:#aaa ;
+}
+/* --------------------------------------------------
+
+  user panel style
+
+-------------------------------------------------- */
+
+/* --------------------------------------------------
+
+  header
+
+-------------------------------------------------- */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+  border-top: 5px solid #231e3e;
+}
+.header-btn {
+  padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: mj;
+    color: #000;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    /* border: 1px solid #000; */
+    margin-top: 28px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-btn:hover {
+    background-color: #231e3e;
+    color: #fff;
+}
+/* --------------------------------------------------
+
+  content
+
+-------------------------------------------------- */
+.content {
+  width: 80%;
+  margin: auto;
+  direction: rtl;
+}
+.content-part {
+  width: 18%;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #ddd;
+  margin-top: 17px;
+  margin-right: 16px;
+  direction: rtl;
+  display: inline-block;
+  color: #777;  
+  transition: all 0.2s;
+}
+.content-part-title {
+  width: 90%;
+  height: 40px;
+  border-bottom: 1px dashed #ccc;
+  margin: auto;
+  text-align: center;
+}
+.content-part-title span {
+  font-family: mj;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: #777; 
+  transition: all 0.2s; 
+}
+.content-part:hover {
+  box-shadow: 5px 5px 10px #ddd;
+  color: #c00;
+  background: #f6f6f6;
+}
+.content-part:hover .content-part-title span{
+  color: #c00;
+}
+/* --------------------------------------------------
+
+  logo.php
+
+-------------------------------------------------- */
+.upload-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: mj;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 0 5px #ccc;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.file-btn {
+  display: inline-block;
+  position: relative;
+  color: #533e00;
+  width: 70px;
+  vertical-align: top;
+  overflow: hidden;
+  height: 33px;
+  border-radius: 3px;
+}
+.file-btn input {
+  visibility: hidden;
+  width: 100px;
+}
+.file-btn:hover:before {
+  border-color: #eaeaea;
+}
+.file-btn:before {
+content: 'تصویر';
+background-color: #34DC01;
+border: 1px solid #ccc;
+color: #000;
+font-family: mj;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+position: absolute;
+left: -2px;
+right: 0;
+top: -3px;
+text-align: center;
+cursor: pointer;
+border-radius: 4px;
+}
+.file-btn:hover:before {
+    border-color: #eaeaea;
+}
+/* --------------------------------------------------
+
+  admin-nav.php
+
+-------------------------------------------------- */
+.content {
+    width: 85%;
+    margin: auto;
+    direction: rtl;
+}
+.input {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: mj;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.input:hover {
+    border: 1px solid #eaeaea;
+}
+.input:focus {
+    border: 1px solid #eaeaea;
+    outline: none;
+}
+.textarea {
+  width: 20%;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: iran;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 3px;
+  vertical-align: top;
+}
+.textarea:hover {
+  border: 1px solid #eaeaea;
+}
+.textarea:focus {
+  outline: none;
+  border: 1px solid #eaeaea;
+}
+.delete-nav {
+    display: inline-block;
+}
+.delete-nav a {
+    padding-top: 8px;
+    padding-bottom: 8.5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #a90000;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: mj;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+}
+.delete-nav a:hover {
+    background-color: #850000;
+}
+.edit-nav {
+    padding-top: 8px;
+    padding-bottom: 8.5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #34DC01;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: mj;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+.edit-nav:hover {
+    background-color: #32D101;
+}
+.add-btn {
+    padding-top: 8px;
+    padding-bottom: 8.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #34DC01;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: mj;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+.add-btn:hover {
+    background-color: #32D101;
+}
+/* --------------------------------------------------
+
+  admin-service.php
+
+-------------------------------------------------- */
+.service-content {
+  width: 85%;
+  margin: auto;
+  direction: rtl;
+  text-align: center;
+}
+/* --------------------------------------------------
+
+  table
+
+-------------------------------------------------- */
+table {
+  width: 100%;
+}
+th {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  font-family: mj;
+  color: #fff;
+}
+td {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  font-family: mj;
+}

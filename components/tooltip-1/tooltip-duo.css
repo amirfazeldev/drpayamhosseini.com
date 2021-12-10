@@ -1,0 +1,17 @@
+
+/*2016/07/11*/
+
+#tooltip {
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: #555;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 5px 8px;
+	z-index: 99999999999;
+	border-radius: 3px;
+	direction: rtl;
+	font-size: 12px;
+	border-right: 3px solid #231e3e;
+}
+

@@ -1,0 +1,12 @@
+
+input[type="text"].clockpicker {
+    width: 75px;
+    font-size:15px;
+    font-family: monospace,sans-serif !important;
+    text-align: center !important;
+    direction: ltr !important;
+    padding: 8px;
+}
+.clockpicker-popover .popover-title {
+	direction: ltr !important;
+}

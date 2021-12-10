@@ -1,0 +1,67 @@
+
+.nl_management_send_form {
+	display: block;
+	text-align: right;
+	margin: 60px auto 80px auto;
+	width: 90%;
+	direction: rtl;
+	padding-bottom: 30px;
+}
+
+.nl_management_send_form > div {
+	margin: 30px 0;
+}
+.nl_management_send_form > label {
+	display: block;
+	margin: 10px 0;
+}
+.nl_management_send_form > div.te-div {
+	background-color: #dcdcdc;
+	padding: 15px 5px 0px 5px;
+	border-radius: 10px;
+}
+.nl_management_send_form > div.te-div > div {
+	padding: 0 15px 6px 0;
+}
+.nl_management_send_form > div.te-div > input[type="text"] ,
+.nl_management_send_form > div.te-div > textarea {
+	border-radius: 5px;
+	border: 0px;
+}
+.nl_management_send_form > div.te-div > textarea:hover {
+	border: 0px;
+}
+.nl_management_send_form > div.te-div > textarea::-webkit-resizer {
+    display: none;
+}
+
+.nl_management_send_form input[type="text"] ,
+.nl_management_send_form textarea {
+	font-size: 20px;
+	padding: 10px;
+	width: 98%;
+	margin: 5px 0;
+}
+.nl_management_send_form textarea[name="text"] {
+	height: 200px;
+}
+.nl_management_send_form textarea[name="numb"] {
+	height: 80px;
+	font-family: monospace,sans-serif;
+	direction: ltr;
+}
+
+.nl_management_send_form input[type="checkbox"] {
+	margin: 0 40px 0 0;
+}
+
+#nlmg_list_of_emails {
+	display: none;
+}
+
+.warn {
+    background-color: #ffd8b6 !important;
+}
+.error_news{
+	color: #ff7373 !important;
+}

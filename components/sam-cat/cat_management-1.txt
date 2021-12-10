@@ -1,0 +1,17 @@
+
+
+# jalal7h@gmail.com
+# 2016/09/05
+# 2.0
+
+// $url = "./?page=admin&cp=".$_REQUEST['cp'];
+// 	$menu = array(
+// 		"ms_management_list" => "لیست موبایل ها",
+// 		"ms_management_form" => "ثبت موبایل جدید",
+// 		"cat_management&l=brand" => "برندها",
+// 		"cat_management&l=stuff_status" => "وضعیت ها",
+// 		"cat_management&l=mobile_sim" => "سیم ها",
+// 		"cat_management&l=mobile_os" => "سیستم عامل ها",
+// 		"cat_management&l=mobile_browser" => "مرورگر",
+// 	);
+// 	listmaker_tabmenu($menu,$url);

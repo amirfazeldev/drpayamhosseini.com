@@ -1,0 +1,218 @@
+
+#cat_management {
+	padding: 0px 0 60px 0;
+	width: 100%;
+	text-align: right;
+	direction: rtl;
+}
+#cat_management .delimiter {
+	width: 100%;
+	height: 15px;
+	margin-bottom: 15px !important;
+}
+#cat_management hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#cat_management select{
+	width: 400px;
+	font: 14px IRANSans;
+}
+.convbox {
+    margin: 20px;
+    padding: 45px 55px;
+    border: 1px solid #e8e8e8;
+    background: #f8f8f8;
+    color: #7d7d7d;
+    text-shadow: 1px 1px #fff;
+    font-size: 13px;
+    line-height: 25px !important;
+    border-radius: 10px;
+    direction: rtl;
+    box-sizing: border-box;
+}
+/*** position */
+#cat_form_management{
+	width: 100%;
+	text-align: right;
+	direction: rtl;
+}
+#cat_form_management .record {
+	margin: 0 0px 8px 0px;
+	padding: 3px 5px 3px 0;
+}
+#cat_form_management .record a > img.arrow {
+	width: 24px;
+	position: relative; top: 3px;
+}
+#cat_form_management .subanchor {
+	color: blue;
+	font-size: 12px;
+	/* padding-right:10px; */
+	margin-top: 2px;
+	margin-right: 3px;
+	color: white;
+	font-family: IRANSans;
+}
+#cat_form_management input[type=submit]{
+	width: 80px;
+	margin-left: 3px;
+	border: none;
+}
+#cat_form_management input[type=text]{
+	margin-left: 3px;
+	transition: width 0.4s;
+	width: 200px;
+}
+#cat_form_management .itgc_grid1 > form > input[type=text] {
+	width: 250px;
+}
+#cat_form_management .itgc_grid2 > form > input[type=text] {
+	width: 200px;
+}
+#cat_form_management .itgc_grid3 > form > input[type=text] {
+	width: 131.5px;
+}
+
+
+#cat_form_management #new{
+	padding-right: 121px;
+}
+#cat_form_management div a img{
+	padding-left:5px;
+	padding-right:5px;
+}
+#cat_form_management .title,
+#cat_form_management .title a {
+	font:bold 14px iran !important ;
+	color: #777;
+}
+#cat_form_management div .manage{
+	padding-right:10px;
+	color:blue;
+	font-weight:bold;
+}
+#cat_form_management #new {
+	margin-top: 20px;
+}
+
+#cat_form_management a.remove:before {
+	padding: 0 8px;
+	vertical-align: middle;
+	content: "\f00d";
+	font-family: FontAwesome;
+	color: #f88;
+	font-size: 22px;
+	display: inline-block;
+	border-radius: 4px;
+}
+#cat_form_management a.remove:hover:before {
+	color: #f00;
+	background-color: #ddd;
+}
+
+#cat_form_management a.move-up:before {
+	padding: 0 10px;
+	vertical-align: middle;
+	content: "\f0d8";
+	font-family: FontAwesome;
+	color: #999;
+	font-size: 22px;
+	display: inline-block;
+
+}
+#cat_form_management a.move-up:hover:before {
+	background-color: #ddd;
+	border-radius: 4px;
+	color: #000;
+}
+
+#cat_form_management a.move-down:before {
+	padding: 0 10px;
+	vertical-align: middle;
+	content: "\f0d7";
+	font-family: FontAwesome;
+	color: #999;
+	font-size: 22px;
+	display: inline-block;
+	margin-left: 10px;
+}
+#cat_form_management a.move-down:hover:before {
+	background-color: #ddd;
+	border-radius: 4px;
+	color: #000;
+}
+
+#cat_form_management a.flag:before {
+	padding: 0 8px;
+    vertical-align: middle;
+    content: "\f14a";
+    font-family: FontAwesome;
+    color: #999;
+    font-size: 43px;
+    display: inline-block;
+    border-radius: 4px;
+    margin: -11px 0;
+}
+#cat_form_management a.flag:hover:before {
+	color: #666;
+}
+
+#cat_form_management a.customfield:before {
+	padding: 0 8px;
+    vertical-align: middle;
+    content: "\f14d";
+    font-family: FontAwesome;
+    color: #999;
+    font-size: 43px;
+    display: inline-block;
+    border-radius: 4px;
+    margin: -11px -5px;
+}
+#cat_form_management a.customfield:hover:before {
+	color: #666;
+}
+
+#cat_form_management .disabled {
+	background-color: #e2e2e2;
+	border-radius: 4px;
+}
+.submit_button {
+    display: inline-block !important;
+    background-color: rgb(117,172,0);
+    padding: 9px 15px;
+    font: normal 13px iran !important;
+    color: white !important;
+    border-radius: 5px;
+    margin: 3px auto;
+    text-decoration: none !important;
+    box-shadow: 0 0 10px #ccc !important;
+    outline: none !important;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+.cat-dashboard {
+    padding: 30px 30px 0 20px;
+    min-height: calc( 100vh - 52px );
+    width: 80%;
+    margin: 0 auto;
+}
+.cat-dashboard input[type="text"] {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.submit_button:hover {
+    opacity: 0.9;
+}
+.cat-dashboard span{
+  margin-left: 10px;
+  font-size: 12px;
+}
+/*********/
